@@ -8,7 +8,6 @@ Welcome to my personal website! This project showcases my skills, projects, and 
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
-- [Usage](#usage)
 
 
 ## About
