@@ -7,7 +7,7 @@ Welcome to my personal website! This project showcases my skills, projects, and 
 - [About](#about)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
+- [Usage](#usage)
 
 
 ## About
@@ -27,10 +27,9 @@ This personal website serves as a digital portfolio to showcase my projects and 
 - Font Awesome for icons
 - Tenor GIFs for animations
 
-## Installation
+## Usage
 
-To view the website locally, follow these steps:
+To view the website:
 
-1. Clone the repository:
-   git clone https://github.com/assem449/personal-website.git
-2. Open index.html in your preferred web browser
+Just go to https://assem449.github.io/personal-website/
+
