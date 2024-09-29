@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AssemMalgazhdarovaWebsite</title>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+      </head>
+      
+      
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#interests">Interests</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Currently Seeking Co-op Internships Roles</p>
+            <h1>Computer Science Student</h1>
+            <img src="images/gif.gif" alt="My GIF" class="animated-gif" />
+        </div>
+    </div>
+</div>
+<!-------------about---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p class="paragraph"> I’m a third-year Computer Science student at York University, 
+                            actively seeking co-op and internship opportunities in the software development field. 
+                            I’m passionate about building creative digital solutions and excited to bring my skills 
+                            to a team where I can learn, collaborate, and make a real impact.</p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onClick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onClick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Front-End Development</span><br>React.js, HTML, CSS</li>
+                                <li><span>Back-End Development</span><br>Experienced with Node.js for server-side development and API integration</li>
+                                <li><span>Tools</span><br>Git, GitHub, Jira, Figma, Unix, MS Office</li>
+                                <li><span>Programming Languages</span><br>Python, Java, JavaScript, TypeScript, C, SQL</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>May 2023 - August 2023</span><br>Game Developer Intern</li>
+                                <li><span>May 2024-August 2024</span><br>Information technology Intern</li>
+                                <li><span>August 2024-Present</span><br>Web Developer at Google Developer Student Club</li>
+                                <li><span>June 2024-Present</span><br>Logistics Executive at ElleHacks</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022-2026</span><br>York University Computer Science Student</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </div>
+<!-- ---------interests---------------- -->
+<div id="interests">
+    <div class="container">
+        <h1 class="sub-title">My Interests</h1>
+        <div class="interests-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design/Development</h2>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design/Development</h2>
+            </div>
+            <div>
+                <i class="fas fa-file"></i>
+                <h2>Data Science</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work-group">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Weather App</h3>
+                        <p>Weather React App providing clothing recommendations based on current weather conditions for a user-specified city.</p>
+                        <a href="https://github.com/assem449/weatherApp.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Chat Bot</h3>
+                        <p>A chat bot application powered by the OpenAI API.</p>
+                        <a href="https://github.com/assem449/ChatBot.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Safe Walk AI</h3>
+                    <p>During ElleHacks 2024 collaborated in a group to develop a women's safety app.</p>
+                    <a href="https://devpost.com/software/safewalk-2kef98"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-4.png">
+                <div class="layer">
+                    <h3>My Personal Website</h3>
+                    <p>My Personal Website made with HTML and CSS.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/assem449" class="btn-see-more">See more</a>
+
+    </div>
+</div>
+
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> <span class="email">assem4491@gmail.com</span></p>
+                <p><i class="fa-solid fa-location-dot"></i><span class="location">Toronto, ON</span></p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/assemika?igsh=amZxMm5wY2lmZGh6&utm_source=qr"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/assemmalgazhdarova/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/assem449"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="images/AssemCV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwtBF4ZKFNnuH9MrwAVj03JPUXjYrD-3Wecpgad7fJlmRQUWC0N06nKqO8ejMFir9j6/exec' 
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
